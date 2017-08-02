@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backgroud"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/finishMsg"
+        android:text="Finish"
+        android:textSize="@dimen/abc_text_size_display_3_material"
+        android:padding="26dp"
+        android:textColor="#ffffff"
+        android:textStyle="normal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"
+        android:id="@+id/replayBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="#d6ff77"
+        android:textColor="#9c5cff"
+        android:padding="26dp"
+        android:textSize="@dimen/abc_text_size_display_1_material" />
+
+    <Button
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:text="@string/levels"
+        android:id="@+id/levelsBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="#8effe7"
+        android:textColor="#9c5cff"
+        android:padding="26dp"
+        android:textSize="@dimen/abc_text_size_display_1_material" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="26dp"
+        android:text="@string/quit_game"
+        android:id="@+id/quitBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff7b57"
+        android:textSize="@dimen/abc_text_size_body_2_material" />
+
+</LinearLayout>

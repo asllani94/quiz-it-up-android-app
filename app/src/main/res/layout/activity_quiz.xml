@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context=".QuizActivity"
+    android:background="@drawable/backgroud">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="top" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/heart1"
+           android:src="@drawable/heart_pixelart"   />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/heart2"
+            android:src="@drawable/heart_pixelart"   />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/heart3"
+            android:src="@drawable/heart_pixelart"   />
+
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Score:0"
+            android:id="@+id/score"
+            android:layout_weight="1"
+            android:textColor="#7dff5d"
+            android:textSize="@dimen/abc_text_size_large_material" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="26dp"
+            android:textColor="#ffffff"
+            android:text="@string/question_text"
+            android:id="@+id/textView"
+            style="@style/Base.TextAppearance.AppCompat.Large"
+            android:textSize="@dimen/abc_text_size_display_1_material" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+
+
+            android:id="@+id/trueBtn"
+            android:textColor="#1cff00"
+            android:background="@drawable/selector_true"
+            android:textSize="@dimen/abc_text_size_display_1_material" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:background="@drawable/selector_false"
+            android:id="@+id/falsebtn"
+
+            android:textColor="#ff1411"
+            android:textSize="@dimen/abc_text_size_display_1_material" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

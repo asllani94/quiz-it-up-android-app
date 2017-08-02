@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.asllani94.quizitup.LevelsActivity"
+    android:background="@drawable/backgroud"
+    android:gravity="center_horizontal">
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:text=""
+        android:id="@+id/infoBtn"
+        android:layout_gravity="right"
+        android:background="@drawable/messagebox_info"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:padding="2dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="64dp"
+            android:text="@string/level_1"
+            android:id="@+id/lvl1Btn"
+
+            android:layout_gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locker1"
+            android:src="@drawable/unlock"   />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:padding="2dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="64dp"
+            android:text="@string/level_2"
+            android:id="@+id/lvl2Btn"
+
+            android:layout_gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locker2"
+            android:src="@drawable/unlock"   />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="2dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="64dp"
+            android:text="@string/level_3"
+            android:id="@+id/lvl3Btn"
+            android:layout_gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locker3"
+            android:src="@drawable/unlock"   />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="2dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="64dp"
+            android:text="Level 4"
+            android:id="@+id/lvl4Btn"
+            android:layout_gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locker4"
+            android:src="@drawable/unlock"   />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="2dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="64dp"
+            android:text="Level 5"
+            android:id="@+id/lvl5Btn"
+            android:layout_gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locker5"
+            android:src="@drawable/unlock"   />
+    </LinearLayout>
+
+</LinearLayout>
